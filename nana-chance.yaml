@@ -1,0 +1,46 @@
+DISCORD_GUILD_IDS: 
+  - 546420743710310433 # Moe and Friends guild.
+
+# Lower and upper are inclusive bounds, can be int or strings with m
+# Chances can be integers or strings with %
+# Unused probability will result in no role applied.
+# Supported suffixes: m, h, d, w
+INTERVALS: 
+
+  - lower: 0m
+    upper: 60m
+    probability: 20%
+
+  - lower: 3h
+    upper: 4h
+    probability: 25%
+
+  - lower: 4h
+    upper: 6h
+    probability: 25%
+  
+  - lower: 6h
+    upper: 8h
+    probability: 25%
+
+  - lower: 1d
+    upper: 1w
+    probability: 4%
+
+  - lower: 31d
+    upper: 31d
+    probability: 1%
+
+LETHAL_ROLE_IDS:
+  - 672306562072576023 # Timeout role
+
+COMRADE_ROLE_IDS:
+  - 546422996810727434 # Best Friends role
+
+TRIGGERS: # Any instnace of this text appearing is grounds for mute
+  - <:gamerwhen:651367432967159808> # :gamerwhen:
+
+NANA_COMRADE_SAFE_MESSAGE: "Nana wasn't going to mute you anyways, since you're also one of Nana's Best Friends 💙"
+NANA_COMRADE_LETHAL_MESSAGE: "Nana thought about muting you for {time}, but you're one of Nana's Best Friends 💙"
+NANA_CAPITALIST_SAFE_MESSAGE: "Nana decided Nana wouldn't mute you this time for using a bad emote. Lucky!"
+NANA_CAPITALIST_LETHAL_MESSAGE: "Uh oh! Nana didn't like you using this emote, so Nana has muted you for {time} :broken_heart:"
