@@ -1,0 +1,10 @@
+mute_messages_self = [
+    "Hitdad sees and Hitdad strikes. {muted_user_name} is muted for {mute_duration_display_str}.",
+    "Daughter protection. It's to die for. {muted_user_name} is muted for {mute_duration_display_str}.",
+    "Waluigi. He's to die for. {muted_user_name} is muted for {mute_duration_display_str}.",
+    "What's the most you ever lost on a coin toss? {muted_user_name} wagered {mute_duration_display_str}.",
+    "Reverend Waluigi has deemed {muted_user_name} a sinner. Their penance: A vow of silence for {mute_duration_display_str}.",
+    "General Waluigi has sent {muted_user_name}'s squad on a secret mission to spread the Word of Wah. They will be radio-silent for {mute_duration_display_str}.",
+    "Eyeless dogs are prowling around {muted_user_name}'s house. They'll go away after {mute_duration_display_str}.",
+    "Moe loves you {muted_user_name}, but you're still getting muted for {mute_duration_display_str}."
+]
