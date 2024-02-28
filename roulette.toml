@@ -8,3 +8,29 @@ mute_messages_self = [
     "Eyeless dogs are prowling around {muted_user_name}'s house. They'll go away after {mute_duration_display_str}.",
     "Moe loves you {muted_user_name}, but you're still getting muted for {mute_duration_display_str}."
 ]
+
+
+[[roles.safe]]
+id = "546422996810727434"
+id2 = 546422996810727434
+name = "Best Friends"
+
+[[roles.safe]]
+id = "1157317681159098448"
+id2 = 1157317681159098448
+name = "Rakka"
+
+[[roles.safe]]
+id = "1061611797133668423"
+id2 = 1061611797133668423
+name = "Ice Guy"
+
+[[roles.safe]]
+id = "644057450743595010"
+id2 = 644057450743595010
+name = "Sheriff"
+
+[[roles.safe]]
+id = "986229557659045899"
+id2 = 986229557659045899
+name = "Deputy"
