@@ -1,0 +1,27 @@
+
+
+[acl]
+
+# List of Discord Roles
+# These roles will be immune to being timed out.
+protected = [
+    "546422996810727434", # Best Friends
+    "1061611797133668423", # Ice Guy
+    "1157317681159098448", # Rakka
+    "889103199624118322", # 爆発隊
+]
+
+# List of Discord Roles
+# These roles will be able to roll for other roles.
+# Moderators are implicitly protected users.
+moderator = [
+    "644057450743595010", # Sheriffs
+    "986229557659045899", # Deputies
+]
+
+# List of Discord User IDs
+# Reserved superuser role for future use.
+# Administrators are implicitly moderators.
+administrator = [
+    "146619230760992768", # elvengarde
+]
