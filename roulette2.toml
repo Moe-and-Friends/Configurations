@@ -1,6 +1,14 @@
 
 
 [acl]
+
+# List of channel IDs that regular users can roll on.
+# Note that Administrators and Moderators can trigger the roll on any channel regardless.
+channels = [
+    "1200075107373170698", # gamerwhen
+    "1078358866770792489", # mad-science
+]
+
 # List of Discord Roles
 # These roles will be immune to being timed out.
 protected = [
@@ -29,7 +37,7 @@ administrator = [
 # A list of messages that could be used to reply to a user who timed themselves out.
 # Supported inline variables:
 # {timeout_user_name}: The display name of the user (will not be tagged)
-# {timeout_duration_label}: A display of the user's mute duration
+# {timeout_duration_label}: A display of the user's timeout duration
 timeout_affected_messages_self = [
     "Hitdad sees and Hitdad strikes. {timeout_user_name} is muted for {timeout_duration_label}.",
     "Daughter protection. It's to die for. {timeout_user_name} is muted for {timeout_duration_label}.",
@@ -44,24 +52,24 @@ timeout_affected_messages_self = [
 # A list of a messages that could be used to reply to a moderator or administrator who timed another user out.
 # Supported inline variables:
 # {timeout_user_name}: The display name of the user (will not be tagged)
-# {timeout_duration_label}: A display of the user's mute duration
+# {timeout_duration_label}: A display of the user's timeout duration
 timeout_affected_messages_other = [
-    "Hitdad sees and Hitdad strikes. {muted_user_name} is muted for {mute_duration_display_str}.",
-    "Daughter protection. It's to die for. {muted_user_name} is muted for {mute_duration_display_str}.",
-    "Waluigi. He's to die for. {muted_user_name} is muted for {mute_duration_display_str}.",
-    "What's the most you ever lost on a coin toss? {muted_user_name} wagered {mute_duration_display_str}.",
-    "Reverend Waluigi has deemed {muted_user_name} a sinner. Their penance: A vow of silence for {mute_duration_display_str}.",
-    "General Waluigi has sent {muted_user_name}'s squad on a secret mission to spread the Word of Wah. They will be radio-silent for {mute_duration_display_str}.",
-    "Eyeless dogs are prowling around {muted_user_name}'s house. They'll go away after {mute_duration_display_str}.",
+    "Hitdad sees and Hitdad strikes. {timeout_user_name} is muted for {timeout_duration_label}.",
+    "Daughter protection. It's to die for. {timeout_user_name} is muted for {timeout_duration_label}.",
+    "Waluigi. He's to die for. {timeout_user_name} is muted for {timeout_duration_label}.",
+    "What's the most you ever lost on a coin toss? {timeout_user_name} wagered {timeout_duration_label}.",
+    "Reverend Waluigi has deemed {timeout_user_name} a sinner. Their penance: A vow of silence for {timeout_duration_label}.",
+    "General Waluigi has sent {timeout_user_name}'s squad on a secret mission to spread the Word of Wah. They will be radio-silent for {timeout_duration_label}.",
+    "Eyeless dogs are prowling around {timeout_user_name}'s house. They'll go away after {timeout_duration_label}.",
 ]
 
 # A list of messages that could be used to reply to a user who attempted to time themselves out, but was protected.
 # Supported inline variables:
 # {timeout_user_name}: The display name of the user (will not be tagged)
-# {timeout_duration_label}: A display of the user's mute duration
+# {timeout_duration_label}: A display of the user's timeout duration
 timeout_protected_messages_self = [
-    "Moe loves you, so you won't get muted for {mute_duration_display_str}.",
-    "The love of Moe's life, thou art not deserving of a {mute_duration_display_str} mute."
+    "Moe loves you, so you won't get muted for {timeout_duration_label}.",
+    "The love of Moe's life, thou art not deserving of a {timeout_duration_label} mute."
 ]
 
 # A list of messages that could be used to reply to a moderator or administrator who attempted to timeout a protected user.
@@ -69,5 +77,5 @@ timeout_protected_messages_self = [
 # {timeout_user_name}: The display name of the user (will not be tagged)
 # {timeout_duration_label}: A display of the user's mute duration
 timeout_protected_messages_other = [
-    "The love of Moe's life, thou art not deserving of a {mute_duration_display_str} mute."
+    "The love of Moe's life, thou art not deserving of a {timeout_duration_label} mute."
 ]
