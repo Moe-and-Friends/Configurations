@@ -10,6 +10,7 @@ match_patterns = [
 # List of channel IDs that regular users can roll on.
 # Note that Administrators and Moderators can trigger the roll on any channel regardless.
 channels = [
+    "1200075107373170698", # gamerwhen
     "1078358866770792489", # mad-science
 ]
 
