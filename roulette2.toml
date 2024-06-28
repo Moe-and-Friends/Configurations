@@ -5,7 +5,6 @@
 # List of channel IDs that regular users can roll on.
 # Note that Administrators and Moderators can trigger the roll on any channel regardless.
 channels = [
-    "1200075107373170698", # gamerwhen
     "1078358866770792489", # mad-science
 ]
 
@@ -77,5 +76,5 @@ timeout_protected_messages_self = [
 # {timeout_user_name}: The display name of the user (will not be tagged)
 # {timeout_duration_label}: A display of the user's mute duration
 timeout_protected_messages_other = [
-    "The love of Moe's life, thou art not deserving of a {timeout_duration_label} mute."
+    "The love of Moe's life, {timeout_user_name} is not deserving of a {timeout_duration_label} mute."
 ]
