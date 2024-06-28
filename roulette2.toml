@@ -2,6 +2,11 @@
 
 [acl]
 
+# List of Python regex patterns 
+match_patterns = [
+    "(<:gamerwhen:651367432967159808>)+" # Matches :gamerwhen: emojis
+]
+
 # List of channel IDs that regular users can roll on.
 # Note that Administrators and Moderators can trigger the roll on any channel regardless.
 channels = [
